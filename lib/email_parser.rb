@@ -1,5 +1,5 @@
 class EmailParser
-  attr_accessor :parse
+  attr_accessor :name, :csv_emails
 
-  parse = []
+
 end
