@@ -7,7 +7,7 @@ class EmailParser
   end
 
   def parse
-    csv_emails.split(',').flatten.delete
+    csv_emails.delete(',').split.flatten.uniq
   end
 
 end
